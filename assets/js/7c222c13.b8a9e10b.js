@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalekhaweb=self.webpackChunkalekhaweb||[]).push([[8653],{6912:a=>{a.exports=JSON.parse('{"label":"arakoo","permalink":"/pratik-doc/blog/tags/arakoo","allTagsPath":"/pratik-doc/blog/tags","count":3}')}}]);

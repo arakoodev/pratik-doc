@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalekhaweb=self.webpackChunkalekhaweb||[]).push([[8278],{747:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/pratik-doc/blog/tags/facebook","allTagsPath":"/pratik-doc/blog/tags","count":1}')}}]);

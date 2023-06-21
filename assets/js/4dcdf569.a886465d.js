@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalekhaweb=self.webpackChunkalekhaweb||[]).push([[4464],{420:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/pratik-doc/blog/tags/docusaurus","allTagsPath":"/pratik-doc/blog/tags","count":1}')}}]);
