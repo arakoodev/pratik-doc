@@ -1,0 +1,206 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+ --ifm-color-primary: #A988F2;
+  --ifm-color-primary-dark: #2F0459;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #D5E5F2;
+  --ifm-color-primary-lighter: #F2DA91;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: #F2F2F2;
+  --ifm-background-color:#F2F2F2;
+  --ifm-table-stripe-background: transparent;
+  --ifm-navbar-background-color: #F2F2F2;
+  --ifm-navbar-link-color: black;
+  --prism-color: black;
+  --prism-background-color:white;
+}
+/* :root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+} */
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #A988F2;
+  --ifm-color-primary-dark: #2F0459;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #D5E5F2;
+  --ifm-color-primary-lighter: #F2DA91;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: #F2F2F2;
+  --ifm-background-color:#F2F2F2;
+  --ifm-table-stripe-background: transparent;
+  --ifm-navbar-background-color: #F2F2F2;
+  --ifm-navbar-link-color: black;
+}
+/* [data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-table-stripe-background: transparent;
+} */
+
+.footer--dark {
+    --ifm-footer-background-color: transparent;
+    --ifm-footer-color: var(--ifm-footer-link-color);
+    --ifm-footer-link-color: var(--ifm-color-secondary);
+    --ifm-footer-title-color: var(--ifm-color-white);
+}
+
+
+.navbar__icon:before {
+  content: "";
+  display: flex;
+  height: 24px;
+  width: 24px;
+  background-color: var(--ifm-navbar-link-color);
+}
+
+.navbar__icon:hover:before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.navbar__github:before {
+  mask: url(/img/github-142-svgrepo-com.svg) no-repeat 100% 100%;
+  mask-size: cover;
+}
+
+.navbar__discord:before {
+  mask: url(/img/discord-icon-svgrepo-com.svg) no-repeat 100% 100%;
+  mask-size: cover;
+}
+
+
+.is-sticky {
+  position: sticky;
+  top: 3.5em;
+  z-index: 999;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  background: rgb(38 38 38);
+}
+
+
+/* .divide-neutral-400 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgb(163 163 163 / var(--tw-divide-opacity));
+} */
+
+/* .divide-y > :not([hidden]) ~ :not([hidden]) { */
+    /* --tw-divide-y-reverse: 0; */
+    /* border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse))); */
+    /* border-bottom-width: calc(1px * var(--tw-divide-y-reverse)); */
+/* } */
+/* table tr:nth-child(2n) { */
+    /* background-color: var(--ifm-table-stripe-background); */
+/* } */
+
+/* Custom CSS to override the styles */
+/* .divide-neutral-400 > :not([hidden]) ~ :not([hidden]) {
+  border:inherit;
+  --tw-border-opacity: 1;
+  border-color: inherit;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity)) !important;
+}
+
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-border-opacity: 1;
+    border-style: solid;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-color: rgb(38 38 38 / var(--tw-border-opacity));
+} */
+
+table.tablecostum tr:nth-child(2n) {
+    background-color: inherit;
+}
+
+table.tablecostum th,
+table.tablecostum td {
+  border: none;
+}
+
+table.tablecostum thead tr {
+    border-bottom: 0;
+}
+
+table.tablecostum tr {
+    border-top: 0;
+}
+
+table.tablecostum p {
+  margin: 0;
+}
+
+.navbar__logo img {
+  height: 160%;
+  margin-top: -9px;
+}
+
+.slick-dots-costum{
+  left: -2em;
+  bottom: -3em;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 8em;
+}
+
+@media (min-width: 1024px){
+  .slick-dots-costum{
+    padding: 2em;
+    padding-bottom: 1em;
+  }
+}
+
+.slick-dots-costum li {
+  width: 50px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #c7d2fe;
+  border: 1px solid #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.slick-dots-costum li.slick-active {
+
+  background-color: #312E81;
+  border: 1px solid #312E81;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+h1,h2,h3,h4,h5{
+  font-family: Tinos, Georgia;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
