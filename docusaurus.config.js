@@ -11,16 +11,15 @@ const config = {
   favicon: 'img/logo-arako.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com/',
+  url: 'https://www.arakoo.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'pratikkumar399', // Usually your GitHub org/user name.
+  organizationName: 'arakoodev', // Usually your GitHub org/user name.
   projectName: 'doc', // Usually your repo name.
-  deploymentBranch: 'gh-pages', // Usually your repo name.
 
 
   onBrokenLinks: 'throw',
@@ -48,7 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: ({ docPath }) => {
             const nextVersionDocsDirPath = 'doc';
-            return `https://github.com/pratikkumar399/doc/tree/main/${nextVersionDocsDirPath}/${docPath}`;
+            return `https://github.com/arakoodev/doc/tree/main/${nextVersionDocsDirPath}/${docPath}`;
           },
         },
         blog: {
@@ -60,7 +59,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl: ({ blogPath }) => {
             const nextVersionDocsDirPath = 'blog';
-            return `https://github.com/pratikkumar399/doc/tree/main/${nextVersionDocsDirPath}/${blogPath}`;
+            return `https://github.com/arakoodev/doc/tree/main/${nextVersionDocsDirPath}/${blogPath}`;
           },
         },
         theme: {
@@ -85,7 +84,7 @@ const config = {
         // General config
         editUrl: ({ docpath }) => {
           const nextVersionDocsDirPath = 'handbook';
-          return `https://github.com/pratikkumar399/doc/tree/main/${nextVersionDocsDirPath}/${docpath}`;
+          return `https://github.com/arakoodev/doc/tree/main/${nextVersionDocsDirPath}/${docpath}`;
         },
       }
     ],
@@ -252,7 +251,7 @@ const config = {
         },
         prism: {
           theme: lightCodeTheme,
-          darkTheme: lightCodeTheme,
+          // darkTheme: lightCodeTheme,
         },
       }),
 
