@@ -1,0 +1,20 @@
+{
+  "unversionedId": "code/code",
+  "id": "code/code",
+  "title": "code",
+  "description": "Two Laws of Software Engineering:",
+  "source": "@site/handbook/code/code.md",
+  "sourceDirName": "code",
+  "slug": "/code/",
+  "permalink": "/handbook/code/",
+  "draft": false,
+  "editUrl": "https://github.com/arakoodev/doc/tree/main/handbook/undefined",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "vscode",
+    "permalink": "/handbook/code/vscode"
+  }
+}

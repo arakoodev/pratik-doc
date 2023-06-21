@@ -1,0 +1,24 @@
+{
+  "unversionedId": "code/wsl",
+  "id": "code/wsl",
+  "title": "Creating a Windows + WSL (Windows Subsystem for Linux) development environment for RedCarpet dev and analysts",
+  "description": "Install Windows Terminal",
+  "source": "@site/handbook/code/wsl.md",
+  "sourceDirName": "code",
+  "slug": "/code/wsl",
+  "permalink": "/handbook/code/wsl",
+  "draft": false,
+  "editUrl": "https://github.com/arakoodev/doc/tree/main/handbook/undefined",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "vscode",
+    "permalink": "/handbook/code/vscode"
+  },
+  "next": {
+    "title": "Intro",
+    "permalink": "/handbook/intro"
+  }
+}

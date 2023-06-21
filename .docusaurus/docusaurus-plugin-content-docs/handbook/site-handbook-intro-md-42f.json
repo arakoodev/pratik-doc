@@ -1,0 +1,20 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Intro",
+  "description": "☮️",
+  "source": "@site/handbook/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/handbook/intro",
+  "draft": false,
+  "editUrl": "https://github.com/arakoodev/doc/tree/main/handbook/undefined",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creating a Windows + WSL (Windows Subsystem for Linux) development environment for RedCarpet dev and analysts",
+    "permalink": "/handbook/code/wsl"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Examples",
+  "description": "All the examples demonstrating the power of EdgeChains",
+  "slug": "/category/examples",
+  "permalink": "/doc/category/examples",
+  "navigation": {
+    "previous": {
+      "title": "EdgeChains",
+      "permalink": "/doc/intro"
+    },
+    "next": {
+      "title": "Plugin - Klarna Shopping Search",
+      "permalink": "/doc/Examples/Plugin - Klarna Shopping Search"
+    }
+  }
+}

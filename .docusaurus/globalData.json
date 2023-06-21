@@ -1,0 +1,102 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/doc",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/doc",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "Examples/Plugin - Klarna Shopping Search",
+              "path": "/doc/Examples/Plugin - Klarna Shopping Search",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Examples/Tool - Wikipedia Search",
+              "path": "/doc/Examples/Tool - Wikipedia Search",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/doc/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Tutorials/Creating an API from a Plugin",
+              "path": "/doc/Tutorials/Creating an API from a Plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/examples",
+              "path": "/doc/category/examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorials",
+              "path": "/doc/category/tutorials",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/doc/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "handbook": {
+      "path": "/handbook",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/handbook",
+          "mainDocId": "code/code",
+          "docs": [
+            {
+              "id": "code/code",
+              "path": "/handbook/code/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/vscode",
+              "path": "/handbook/code/vscode",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "code/wsl",
+              "path": "/handbook/code/wsl",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/handbook/intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/handbook/code/",
+                "label": "code"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

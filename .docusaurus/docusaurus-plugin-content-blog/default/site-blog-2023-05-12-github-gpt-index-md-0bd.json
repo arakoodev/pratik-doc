@@ -1,0 +1,60 @@
+{
+  "permalink": "/blog/github-gpt",
+  "editUrl": "https://github.com/arakoodev/doc/tree/main/blog/2023-05-12-github-gpt/index.md",
+  "source": "@site/blog/2023-05-12-github-gpt/index.md",
+  "title": "How to Craft a Stellar GitHub Support Bot with GPT-3 and Chain-of-Thought",
+  "description": "Learn how to build an advanced GitHub support bot using GPT-3 and chain-of-thought techniques for improved user experience and efficient issue resolution.",
+  "date": "2023-05-12T00:00:00.000Z",
+  "formattedDate": "May 12, 2023",
+  "tags": [
+    {
+      "label": "chain-of-thought",
+      "permalink": "/blog/tags/chain-of-thought"
+    },
+    {
+      "label": "llm",
+      "permalink": "/blog/tags/llm"
+    },
+    {
+      "label": "github",
+      "permalink": "/blog/tags/github"
+    },
+    {
+      "label": "arakoo",
+      "permalink": "/blog/tags/arakoo"
+    }
+  ],
+  "readingTime": 3.43,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Arakoo",
+      "title": "Arakoo Core Team",
+      "url": "https://github.com/arakoodev",
+      "image_url": "https://avatars.githubusercontent.com/u/114422989",
+      "imageURL": "https://avatars.githubusercontent.com/u/114422989"
+    }
+  ],
+  "frontMatter": {
+    "slug": "github-gpt",
+    "title": "How to Craft a Stellar GitHub Support Bot with GPT-3 and Chain-of-Thought",
+    "description": "Learn how to build an advanced GitHub support bot using GPT-3 and chain-of-thought techniques for improved user experience and efficient issue resolution.",
+    "authors": {
+      "name": "Arakoo",
+      "title": "Arakoo Core Team",
+      "url": "https://github.com/arakoodev",
+      "image_url": "https://avatars.githubusercontent.com/u/114422989",
+      "imageURL": "https://avatars.githubusercontent.com/u/114422989"
+    },
+    "tags": [
+      "chain-of-thought",
+      "llm",
+      "github",
+      "arakoo"
+    ]
+  },
+  "nextItem": {
+    "title": "Why you should be using chain-of-thought instead of prompts in chatGPT",
+    "permalink": "/blog/why-llm"
+  }
+}

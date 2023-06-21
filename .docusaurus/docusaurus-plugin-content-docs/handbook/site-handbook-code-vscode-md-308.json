@@ -1,0 +1,24 @@
+{
+  "unversionedId": "code/vscode",
+  "id": "code/vscode",
+  "title": "vscode",
+  "description": "Pylance",
+  "source": "@site/handbook/code/vscode.md",
+  "sourceDirName": "code",
+  "slug": "/code/vscode",
+  "permalink": "/handbook/code/vscode",
+  "draft": false,
+  "editUrl": "https://github.com/arakoodev/doc/tree/main/handbook/undefined",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "code",
+    "permalink": "/handbook/code/"
+  },
+  "next": {
+    "title": "Creating a Windows + WSL (Windows Subsystem for Linux) development environment for RedCarpet dev and analysts",
+    "permalink": "/handbook/code/wsl"
+  }
+}
